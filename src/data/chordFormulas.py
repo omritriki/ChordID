@@ -1,3 +1,20 @@
+# ===================================================================================================
+#                                       ChordID - Chord Formulas
+#                                            Omri Triki
+#                                       Guitar Learning Tool
+#                                               2025
+# ===================================================================================================
+# Description:
+#   This module contains the chord formulas and tuning options used in the ChordID project. It defines
+#   the intervals for various chord types and provides a dictionary of common guitar tunings.
+# Inputs:
+#   - None (used as a static data module).
+# Outputs:
+#   - `chordFormulas`: A dictionary mapping intervals to chord names.
+#   - `tuningOptions`: A dictionary of common guitar tunings and their intervals.
+# ===================================================================================================
+
+
 chordFormulas = {
         (0, 4, 7): 'Major',
         (0, 3, 7): 'Minor',

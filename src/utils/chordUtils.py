@@ -1,3 +1,23 @@
+# ===================================================================================================
+#                                       ChordID - Chord Utilities
+#                                            Omri Triki
+#                                       Guitar Learning Tool
+#                                               2025
+# ===================================================================================================
+# Description:
+#   This module provides utility functions for chord identification in the ChordID project. It includes
+#   functions for finding the root note, calculating intervals, and determining the chord type based
+#   on user input.
+# Inputs:
+#   - Fret positions for each string (6 strings, with 'X' for muted strings).
+#   - Tuning intervals for the selected tuning.
+# Outputs:
+#   - The root note of the chord.
+#   - The intervals between the notes in the chord.
+#   - The identified chord type (e.g., "E Minor").
+# ===================================================================================================
+
+
 from enum import Enum
 from src.data.chordFormulas import chordFormulas  # Adjusted import path
 

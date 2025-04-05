@@ -1,3 +1,21 @@
+# ===================================================================================================
+#                                       ChordID - Input Utilities
+#                                            Omri Triki
+#                                       Guitar Learning Tool
+#                                               2025
+# ===================================================================================================
+# Description:
+#   This module provides utility functions for handling user input in the ChordID project. It includes
+#   functions for selecting a tuning and entering fret positions for chord identification.
+# Inputs:
+#   - User input for tuning selection (integer corresponding to a tuning option).
+#   - User input for fret positions (6 strings, with 'X' for muted strings).
+# Outputs:
+#   - The selected tuning as a tuple of intervals.
+#   - A list of fret positions for chord identification.
+# ===================================================================================================
+
+
 from src.data.chordFormulas import tuningOptions
 
 def get_tuning_input():
