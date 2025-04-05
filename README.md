@@ -75,13 +75,5 @@ ChordID is a Python-based tool designed to help guitar enthusiasts learn and ide
 
 Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgments
-
-- Inspired by the desire to make learning guitar more interactive and fun.
-- Special thanks to the Python community for their amazing libraries and support.
 
 Happy playing! 🎸
