@@ -1,11 +1,9 @@
-# filepath: /Users/omritriki/VSCodeProjects/ChordID/main.py
-from inputUtils import get_tuning_input, get_frets_input
-from chordUtils import findNotes, findChordType
+from utils.inputUtils import get_tuning_input, get_frets_input
+from utils.chordUtils import findNotes, findChordType
 
 def main():
     # Get tuning input with validation
     tuning = get_tuning_input()
-    #tuning_intervals = standard_tuning if tuning == 1 else DropD_tuning
 
     while True:
         # Get frets input with validation

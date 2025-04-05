@@ -1,5 +1,5 @@
 from enum import Enum
-from chordFormulas import chordFormulas
+from src.data.chordFormulas import chordFormulas  # Adjusted import path
 
 class Root(Enum):
     E = 0

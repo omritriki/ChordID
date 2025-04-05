@@ -1,4 +1,4 @@
-from chordFormulas import tuningOptions
+from src.data.chordFormulas import tuningOptions
 
 def get_tuning_input():
     print("\nAvailable tunings:")
